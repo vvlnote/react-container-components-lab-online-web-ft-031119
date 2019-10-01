@@ -9,6 +9,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
 
 // Code LatestMovieReviewsContainer Here
 class LatestMovieReviewsContainer extends Component {
+<<<<<<< HEAD
 	constructor() {
 		super();
 		this.state = {
@@ -27,12 +28,17 @@ class LatestMovieReviewsContainer extends Component {
 			})
 		})
 	}
+=======
+>>>>>>> cd982668c49d6df9712bb9d954535d7c6faabedb
 
   render(){
     return (
       <div className="latest-movie-reviews">
+<<<<<<< HEAD
       	<h2> Movie Reviews </h2>
       		<MovieReviews reviews={this.state.reviews} />
+=======
+>>>>>>> cd982668c49d6df9712bb9d954535d7c6faabedb
       </div>
     )
   }

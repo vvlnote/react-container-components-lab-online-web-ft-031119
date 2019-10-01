@@ -1,6 +1,7 @@
 // Code MovieReviews Here
 import React from 'react';
 
+<<<<<<< HEAD
 const Review = (props) => {
 	//console.log(props.review);
 	return(
@@ -32,3 +33,15 @@ const MovieReviews = (props) => {
 }
 
 export default MovieReviews;
+=======
+const Review = ({}) => (
+  <div>
+  </div>
+)
+
+const MovieReviews = (props) => {
+  <div className="reivew-list">
+    {props.reviews.map(review => <Review )}
+  </div>
+}
+>>>>>>> cd982668c49d6df9712bb9d954535d7c6faabedb
